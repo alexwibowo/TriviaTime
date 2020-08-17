@@ -11,32 +11,30 @@ import UIKit
 class QuestionViewController: UIViewController {
 
     @IBOutlet weak var questionLabel: UILabel!
-    @IBOutlet weak var answerA: UIButton!
-    @IBOutlet weak var answerB: UIButton!
-    @IBOutlet weak var answerC: UIButton!
-    @IBOutlet weak var answerD: UIButton!
-    
-    
+    @IBOutlet weak var answerStackView: UIStackView!
+
     var currentQuestion: Question? {
         didSet {
             questionLabel.text = currentQuestion!.question
-            let answers = currentQuestion!.answers.shuffled()           
-            answerA.setTitle("A \(answers[0])", for: .normal)
-            answerB.setTitle("B \(answers[1])", for: .normal)
-            answerC.setTitle("C \(answers[2])", for: .normal)
-            answerD.setTitle("D \(answers[3])", for: .normal)
             
+            let shuffledAnswers = currentQuestion!.answers.shuffled()
+            answerStackView.arrangedSubviews.forEach { (view) in
+                view.removeFromSuperview()
+            }
+            
+            for answer in shuffledAnswers {
+                let answerView = AnswerView()
+                answerView.button.setTitle(answer, for: .normal)
+                answerView.correctAnswer = answer == currentQuestion!.correctAnswer
+                answerStackView.addArrangedSubview(answerView)
+            }
         }
     }
-   
-    @IBAction func answerChosen(_ sender: UIButton) {
-        
-    }
+       
     
     override func viewDidLoad() {
         super.viewDidLoad()
                     
-        
         if let questionSet = QuestionSet.load(from: "set1") {
             let question = questionSet.randomQuestion()
             self.currentQuestion = question

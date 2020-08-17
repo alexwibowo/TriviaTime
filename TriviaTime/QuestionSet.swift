@@ -36,8 +36,7 @@ struct QuestionSet: Codable {
             #if DEBUG
             let jsonString = String(data: data, encoding: .utf8)
             print("Loaded JSON:\n \(jsonString!)")
-            #endif
-            
+            #endif            
             
             if let questionSet = try? JSONDecoder().decode(QuestionSet.self, from: data) {
                 return questionSet
