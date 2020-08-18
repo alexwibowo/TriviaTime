@@ -1,86 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Bucket
-   uuid = "586C6037-1CBC-4605-833F-0F282867EDA5"
-   type = "1"
+   uuid = "E40F9554-49AC-40EE-AB98-9905A6079D00"
+   type = "0"
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "C329A0A2-6BA0-4C7D-B819-00B1BD269EA5"
+            uuid = "2988EA91-A7E0-4224-957F-F376024BBAB3"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TriviaTime/AnswerView.swift"
+            filePath = "TriviaTime/TriviaChatViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
-            landmarkName = "init(frame:)"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "nextQuestion(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "9A18DC65-7AAB-447A-A51C-802AD8D226BF"
+            uuid = "76ECDD60-A6EF-433A-84FD-A5F7781E0827"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TriviaTime/AnswerView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "init(coder:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "F2DEF651-0F0F-4A9D-A94B-4EBECAEA23F9"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TriviaTime/AnswerView.swift"
+            filePath = "TriviaTime/MessageModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "36"
             endingLineNumber = "36"
-            landmarkName = "customInit()"
+            landmarkName = "init()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "D1E4B2DE-0B59-4D88-9147-0EC8C6A5D861"
+            uuid = "CFA1CAE9-7EFF-43A2-98FC-D3BBB6CBC81E"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TriviaTime/AnswerView.swift"
+            filePath = "TriviaTime/TriviaChatViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
-            landmarkName = "buttonPressed(_:)"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "E2896C0C-1A91-4BE8-AA09-320F2C904577"
+            uuid = "4641BC90-E089-4010-8352-E9EC2B74BC3E"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TriviaTime/AnswerView.swift"
+            filePath = "TriviaTime/TriviaChatViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "customInit()"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

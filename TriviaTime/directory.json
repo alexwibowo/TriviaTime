@@ -1,0 +1,18 @@
+{
+    "groups": [
+        { 
+            "groupName": "Year 1",
+            "questionSets": [
+                { "name": "Immunology", "filename": "set1"},
+                { "name": "Virology", "filename": "set2"}
+            ]
+        },
+        { 
+            "groupName": "Year 2",
+            "questionSets": [
+                { "name": "Pathology", "filename": "set3"},
+                { "name": "Foods", "filename": "set4"}
+            ]
+        }
+    ]
+}

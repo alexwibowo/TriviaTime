@@ -17,20 +17,17 @@ class AnswerView: UIView {
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-
         customInit()
     }
     
     override init(frame: CGRect) {
-           super.init(frame: frame)
-           customInit()
-       }
-
-    @IBAction func buttonPressed(_ sender: UIButton) {
-        print("WOT?")
+        super.init(frame: frame)
+        customInit()
     }
     
-    
+    @IBAction func buttonPressed(_ sender: UIButton) {
+        print("Hey there")
+    }
     
     private func customInit() {
         let nib = UINib(nibName: "Answer", bundle: nil)
@@ -42,11 +39,11 @@ class AnswerView: UIView {
     }
     
     /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
-    }
-    */
-
+     // Only override draw() if you perform custom drawing.
+     // An empty implementation adversely affects performance during animation.
+     override func draw(_ rect: CGRect) {
+     // Drawing code
+     }
+     */
+    
 }
